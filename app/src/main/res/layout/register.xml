@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/img"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/img_24">
+
+    </ImageView>
+
+    <EditText
+        android:id="@+id/editTextFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="Full Name">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="User Name" >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="Password" >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextComfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="@string/comfirm_password" >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:text="Email">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPhonetic"
+        android:minHeight="48dp"
+        android:text="Phone Number">
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="28dp"
+            android:layout_height="26dp"
+            android:src="@drawable/img_26">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:text="Remember me"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textViewRegister"
+            android:text="Register"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#0D47A1 "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imageViewFb"
+            android:layout_width="74dp"
+            android:layout_height="61dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/img_27">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textViewFb"
+            android:layout_width="93dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20sp"
+            android:text="Facebook"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imageViewGoogle"
+            android:layout_width="74dp"
+            android:layout_height="61dp"
+            android:src="@drawable/img_30">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textViewGoogle"
+            android:layout_width="93dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20sp"
+            android:text="Google"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
